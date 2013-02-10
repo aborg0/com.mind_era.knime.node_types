@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example-Node extension for KNIME Workbench
+Bundle-SymbolicName: com.mind_era.knime.node_types.internal; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: todelete.jar
+Bundle-Activator: com.mind_era.knime.node_types.internal.ToDeleteNodePlugin
+Bundle-Vendor: Mind Eratosthenes Kft.
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

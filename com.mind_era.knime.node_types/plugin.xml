@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?><plugin>
+
+   <!-- This is an example for providing an own category 
+      <extension
+         point="org.knime.workbench.repository.categories">
+      <category
+            description="Category containing my nodes"
+            icon="icons/default.png"
+            level-id="myNodes"
+            name="My nodes"
+            path="/"/>
+   </extension>
+   -->
+   
+   <extension point="org.knime.workbench.repository.nodes">
+   <node category-path="/" factory-class="com.mind_era.knime.node_types.SourceNodeFactory" id="com.mind_era.knime.node_types.SourceNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.SinkNodeFactory" id="com.mind_era.knime.node_types.SinkNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.LearnerNodeFactory" id="com.mind_era.knime.node_types.LearnerNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.PredictorNodeFactory" id="com.mind_era.knime.node_types.PredictorNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.ManipulatorNodeFactory" id="com.mind_era.knime.node_types.ManipulatorNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.VisualizerNodeFactory" id="com.mind_era.knime.node_types.VisualizerNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.MetaNodeFactory" id="com.mind_era.knime.node_types.MetaNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.LoopStartNodeFactory" id="com.mind_era.knime.node_types.LoopStartNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.LoopEndNodeFactory" id="com.mind_era.knime.node_types.LoopEndNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.OtherNodeFactory" id="com.mind_era.knime.node_types.OtherNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.UnknownNodeFactory" id="com.mind_era.knime.node_types.UnknownNodeFactory"/>
+<node category-path="/" factory-class="com.mind_era.knime.node_types.QuickFormNodeFactory" id="com.mind_era.knime.node_types.QuickFormNodeFactory"/>
+</extension>
+   
+</plugin>
